@@ -1,0 +1,4 @@
+Link = //h2/a/@href
+Title = //h1[@class="jsx-2954190014 article-title"]/text()
+Summary = //h2[@class="jsx-1270612896 article-excerpt"]/p/text()
+Body = //div[@class="jsx-1945861266 article-body"]/p/text()
