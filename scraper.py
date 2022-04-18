@@ -42,7 +42,7 @@ def parse_notice(link, today):
     except ValueError as ve:
         print(ve)
 
-
+#genera la llamada a la url y obtiene los datos
 def parse_home():
     try:
         response = requests.get(HOME_URL)
