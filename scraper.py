@@ -64,7 +64,7 @@ def parse_home():
     except ValueError as ve:
         print(ve)
 
-
+#se ejecuta la funcion parse home
 def run():
     parse_home()
 
